@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.image-fluid {
+    /* The image used */
+    background-image: url("backgroundimg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-fluid p {
+    text-align: center;
+    padding-top: 200px;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+.clear {
+    text-align: center;
+}
+
+.btn-dark {
+    border-radius: 50px;
+    transition: 0.5s;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.btn-dark:hover {
+    transform: scale(1.1);
+}
+
